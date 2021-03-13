@@ -1,6 +1,8 @@
 package application;
 
-import boardgame.Position;
+import boardgame.Board;
+
+
 
 
 public class ChessSystem {
@@ -8,8 +10,8 @@ public class ChessSystem {
     
     public static void main(String[] args) {
         
-       Position pos = new Position(3, 5);
-       System.out.println(pos);
+       Board board = new Board(8, 8);
+       
     }
     
 }
